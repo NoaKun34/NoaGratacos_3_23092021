@@ -73,3 +73,42 @@ header {
         background-color: blue;
     }
 }
+
+.restaurants_cards {
+    display: flex;
+    .restaurant_card {
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+        .card_background {
+            height: 200px;
+        }
+        #card_background_1 {
+            background-image: url('img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .card_text {
+            display: flex;
+            justify-content: space-between;
+            .card_heart {
+                height: 50px;
+                width: 50px;
+                #heart-fill {
+                    display: none;
+                }
+                #heart-empty {
+                    display: block;
+                }
+                &:hover {
+                    #heart-fill {
+                        display: block;
+                    }
+                    #heart-empty {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
