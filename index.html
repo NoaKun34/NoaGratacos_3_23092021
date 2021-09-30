@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <a href=""><img src="img/logo/ohmyfood.png" alt="" id="logo"></a>
-        </header>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0b0c0a604.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="full_width">
+        <a href=""><img src="img/logo/ohmyfood.png" alt="" id="logo"></a>
+    </header>
+
+    <div class="full_width loc">
+        <a href="" class="link" id="localisation_link"><i class="fas fa-map-marker-alt"></i>Paris, Belleville</a>
+    </div>
+
+    <main>
+        <div class="full_width explore">
+            <h2 class="explore_title">Réservez le menu qui </br>vous convient</h2>
+            <p class="explore_text">Découvrez des restaurants d'exception, </br>séléctionnés par nos soins.</p>
+            <button class="explore_button">Explorez nos restaurants</button>
+        </div>
+
+        <div class="full_width functioning">
+            <h2>Fonctionnement</h2>
+            <li>
+                <ul class="step_card" id="step_1"><i class="fas fa-mobile-alt step-ico"></i>Choisissez un restaurant</ul>
+                <ul class="step_card" id="step_2"><i class="fas fa-list-ul step-ico"></i>Composez votre menu</ul>
+                <ul class="step_card" id="step_3"><i class="fas fa-store step-ico"></i>Dégustez au restaurant</ul>
+            </li>
+        </div>
+
+        <div class="full_width restaurants"></div>
+    </main>
+</body>
+
 </html>

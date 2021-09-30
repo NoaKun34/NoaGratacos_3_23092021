@@ -4,9 +4,72 @@ $secondary : #ff79da;
 
 $terciary : #99e2d0;
 
-header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.full_width {
     width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    height: 65px;
     #logo {
         width: 50%;
+    }
+}
+
+.loc {
+    text-align: center;
+    height: 45px;
+    background-color: lightgrey;
+}
+
+.explore {
+    text-align: center;
+    h2 {
+        margin: 0px;
+        padding-top: 45px;
+    }
+    button {
+        padding: 20px 40px 20px;
+        border-radius: 30px;
+        color: white;
+        background-image: linear-gradient($secondary, $primary);
+        border: 0px;
+        margin-bottom: 45px;
+    }
+}
+
+.functioning {
+    background-color: white;
+    h2 {
+        padding-left: 15px;
+    }
+    li {
+        list-style: none;
+    }
+    .step_card {
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #step_1 {
+        background-color: red;
+    }
+    #step_2 {
+        background-color: green;
+    }
+    #step_3 {
+        background-color: blue;
     }
 }

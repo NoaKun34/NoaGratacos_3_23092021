@@ -1,8 +1,79 @@
-header {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.full_width {
   width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 65px;
 }
 
 header #logo {
   width: 50%;
+}
+
+.loc {
+  text-align: center;
+  height: 45px;
+  background-color: lightgrey;
+}
+
+.explore {
+  text-align: center;
+}
+
+.explore h2 {
+  margin: 0px;
+  padding-top: 45px;
+}
+
+.explore button {
+  padding: 20px 40px 20px;
+  border-radius: 30px;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  border: 0px;
+  margin-bottom: 45px;
+}
+
+.functioning {
+  background-color: white;
+}
+
+.functioning h2 {
+  padding-left: 15px;
+}
+
+.functioning li {
+  list-style: none;
+}
+
+.functioning .step_card {
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.functioning #step_1 {
+  background-color: red;
+}
+
+.functioning #step_2 {
+  background-color: green;
+}
+
+.functioning #step_3 {
+  background-color: blue;
 }
 /*# sourceMappingURL=style.css.map */
