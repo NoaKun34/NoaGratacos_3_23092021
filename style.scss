@@ -24,6 +24,10 @@ h3 {
     color: black;
 }
 
+.title {
+    padding-left: 20px;
+}
+
 header {
     height: 65px;
     #logo {
@@ -55,9 +59,6 @@ header {
 
 .functioning {
     background-color: white;
-    h2 {
-        padding-left: 15px;
-    }
     li {
         list-style: none;
     }
@@ -146,5 +147,24 @@ header {
                 }
             }
         }
+    }
+}
+
+footer {
+    background-color: darkgrey;
+    margin-top: 45px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 25%;
+        color: white;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    a {
+        margin-top: 10px;
+        margin-left: 20px;
     }
 }

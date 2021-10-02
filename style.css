@@ -17,6 +17,10 @@ h3 {
   color: black;
 }
 
+.title {
+  padding-left: 20px;
+}
+
 header {
   height: 65px;
 }
@@ -52,10 +56,6 @@ header #logo {
 
 .functioning {
   background-color: white;
-}
-
-.functioning h2 {
-  padding-left: 15px;
 }
 
 .functioning li {
@@ -179,5 +179,31 @@ header #logo {
 
 .restaurants_cards .restaurant_card .card_text .card_heart:hover #heart-empty {
   display: none;
+}
+
+footer {
+  background-color: darkgrey;
+  margin-top: 45px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer img {
+  width: 25%;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+footer a {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */
