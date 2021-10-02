@@ -85,6 +85,10 @@ header #logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .restaurants_cards .restaurant_card {
@@ -118,6 +122,18 @@ header #logo {
 
 .restaurants_cards .restaurant_card #card_background_2 {
   background-image: url("img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.restaurants_cards .restaurant_card #card_background_3 {
+  background-image: url("img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.restaurants_cards .restaurant_card #card_background_4 {
+  background-image: url("img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
