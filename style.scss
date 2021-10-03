@@ -42,7 +42,8 @@ header {
 .loc {
     text-align: center;
     height: 45px;
-    background-color: lightgrey;
+    background-color: #eaeaea;
+    box-shadow: 0 8px 6px -6px black;
     i {
         margin-top: 13px;
     }
@@ -50,9 +51,11 @@ header {
 
 .explore {
     text-align: center;
+    background-color: #f6f6f6;
     h2 {
         margin: 0px;
         padding-top: 45px;
+        font-weight: bold;
     }
     button {
         padding: 20px 40px 20px;
@@ -61,11 +64,16 @@ header {
         background-image: linear-gradient($secondary, $primary);
         border: 0px;
         margin-bottom: 45px;
+        box-shadow: 1px 1px 5px 0px black;
+        b {
+            font-size: 14px;
+        }
     }
 }
 
 .functioning {
-    background-color: white;
+    background-color: white
+    ;
     li {
         list-style: none;
         b {
@@ -88,6 +96,11 @@ header {
     #step_3 {
         background-color: blue;
     }
+}
+
+.restaurants {
+    background-color: #f6f6f6;
+    padding-top: 25px;
 }
 
 .restaurants_cards {

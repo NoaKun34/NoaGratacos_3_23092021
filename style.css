@@ -36,7 +36,9 @@ header #logo {
 .loc {
   text-align: center;
   height: 45px;
-  background-color: lightgrey;
+  background-color: #eaeaea;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
 .loc i {
@@ -45,11 +47,13 @@ header #logo {
 
 .explore {
   text-align: center;
+  background-color: #f6f6f6;
 }
 
 .explore h2 {
   margin: 0px;
   padding-top: 45px;
+  font-weight: bold;
 }
 
 .explore button {
@@ -60,6 +64,12 @@ header #logo {
   background-image: linear-gradient(#ff79da, #9356dc);
   border: 0px;
   margin-bottom: 45px;
+  -webkit-box-shadow: 1px 1px 5px 0px black;
+          box-shadow: 1px 1px 5px 0px black;
+}
+
+.explore button b {
+  font-size: 14px;
 }
 
 .functioning {
@@ -92,6 +102,11 @@ header #logo {
 
 .functioning #step_3 {
   background-color: blue;
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding-top: 25px;
 }
 
 .restaurants_cards {
