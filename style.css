@@ -62,11 +62,16 @@ header #logo {
   list-style: none;
 }
 
+.functioning li b {
+  margin-right: 40px;
+}
+
 .functioning .step_card {
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 25px;
 }
 
 .functioning #step_1 {
@@ -182,9 +187,9 @@ header #logo {
 }
 
 footer {
-  background-color: darkgrey;
+  background-color: #353535;
   margin-top: 45px;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
   padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,7 +202,6 @@ footer {
 
 footer img {
   width: 25%;
-  color: white;
   margin-bottom: 10px;
   margin-left: 20px;
 }
@@ -205,5 +209,12 @@ footer img {
 footer a {
   margin-top: 10px;
   margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+footer a i {
+  width: 20px;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
