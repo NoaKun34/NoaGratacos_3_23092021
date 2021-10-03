@@ -32,6 +32,10 @@ header {
     height: 65px;
     #logo {
         width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15px;
     }
 }
 
@@ -39,6 +43,9 @@ header {
     text-align: center;
     height: 45px;
     background-color: lightgrey;
+    i {
+        margin-top: 13px;
+    }
 }
 
 .explore {
