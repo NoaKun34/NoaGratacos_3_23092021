@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.full_width {
+  width: 100%;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+header {
+  height: 65px;
+}
+
+header #logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.menu_background {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#menu_background_1 {
+  background-image: url("../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+#menu_background_2 {
+  background-image: url("");
+}
+
+#menu_background_3 {
+  background-image: url("");
+}
+
+#menu_background_4 {
+  background-image: url("");
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=menu.css.map */
