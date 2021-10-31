@@ -50,7 +50,7 @@ header {
     background-image: url('../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
 }
 #menu_background_2 {
-    background-image: url('');
+    background-image: url('../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
 }
 #menu_background_3 {
     background-image: url('');
@@ -65,8 +65,8 @@ header {
     .menu_header {
         display: flex;
         justify-content: space-between;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
         h3 {
             font-family: 'Shrikhand';
             font-size: 24px;
@@ -93,6 +93,25 @@ header {
     }
     .menu_list ul {
         list-style: none;   
+    }
+    .menu_list_card {
+        border: solid 1px black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.btn {
+    padding: 15px 0px 15px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient($secondary, $primary);
+    border: 0px;
+    box-shadow: 1px 1px 5px 0px black;
+    b {
+        font-size: 14px;
     }
 }
 

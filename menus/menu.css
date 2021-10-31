@@ -45,7 +45,7 @@ header #logo {
 }
 
 #menu_background_2 {
-  background-image: url("");
+  background-image: url("../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
 }
 
 #menu_background_3 {
@@ -73,8 +73,8 @@ header #logo {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .menu .menu_header h3 {
@@ -106,6 +106,29 @@ header #logo {
 
 .menu .menu_list ul {
   list-style: none;
+}
+
+.menu .menu_list_card {
+  border: solid 1px black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 15px 0px 15px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  border: 0px;
+  -webkit-box-shadow: 1px 1px 5px 0px black;
+          box-shadow: 1px 1px 5px 0px black;
+}
+
+.btn b {
+  font-size: 14px;
 }
 
 footer {
