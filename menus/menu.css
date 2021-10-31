@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -59,6 +60,10 @@ header #logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .menu .menu_header {
@@ -73,9 +78,8 @@ header #logo {
 }
 
 .menu .menu_header h3 {
-  font-family: 'Roboto';
+  font-family: 'Shrikhand';
   font-size: 24px;
-  font-weight: bold;
 }
 
 .menu .menu_header .card_heart {
@@ -98,6 +102,10 @@ header #logo {
 
 .menu .menu_header .card_heart:hover #heart-empty {
   display: none;
+}
+
+.menu .menu_list ul {
+  list-style: none;
 }
 
 footer {
