@@ -73,8 +73,8 @@ header #logo {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .menu .menu_header h3 {
@@ -104,14 +104,21 @@ header #logo {
   display: none;
 }
 
+.menu .menu_title {
+  margin-left: 5%;
+}
+
 .menu .menu_list ul {
   list-style: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0%;
 }
 
 .menu .menu_list_card {
   border: solid 1px black;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .btn {

@@ -143,13 +143,18 @@ header {
             justify-content: space-between;
             margin-left: 10px;
             margin-right: 30px;
+            .card_name {
+                color: black;
+            }
             h2 {
                 font-size: 18px;
                 margin-bottom: 0px;
+                text-decoration: none !important;
             }
             p {
                 font-size: 14px;
                 margin-top: 5px;
+                text-decoration: none;
             }
             .card_heart {
                 height: 25px;
