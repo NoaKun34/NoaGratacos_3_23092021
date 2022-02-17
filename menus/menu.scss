@@ -65,7 +65,7 @@ header {
     .menu_header {
         display: flex;
         justify-content: space-between;
-        margin-left: 5%;
+        //margin-left: 5%;
         margin-right: 5%;
         h3 {
             font-family: 'Shrikhand';
@@ -96,14 +96,20 @@ header {
     }
     .menu_list ul {
         list-style: none;
-        margin-left: 5%;
-        margin-right: 5%;
+        //margin-left: 5%;
+        //margin-right: 5%;
         padding: 0%;
     }
     .menu_list_card {
         border: solid 1px black;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        border-radius: 15px;
+        width: 95%;
+        margin: 5% auto;
+    }
+    .menu_list_description {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
     }
 }
 

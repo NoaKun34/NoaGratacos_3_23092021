@@ -73,7 +73,6 @@ header #logo {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 5%;
   margin-right: 5%;
 }
 
@@ -110,15 +109,24 @@ header #logo {
 
 .menu .menu_list ul {
   list-style: none;
-  margin-left: 5%;
-  margin-right: 5%;
   padding: 0%;
 }
 
 .menu .menu_list_card {
   border: solid 1px black;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  border-radius: 15px;
+  width: 95%;
+  margin: 5% auto;
+}
+
+.menu .menu_list_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
 }
 
 .btn {
