@@ -64,7 +64,7 @@ header {
         background-image: linear-gradient($secondary, $primary);
         border: 0px;
         margin-bottom: 45px;
-        box-shadow: 1px 1px 5px 0px black;
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.459);
         b {
             font-size: 14px;
         }
@@ -81,20 +81,52 @@ header {
         }
     }
     .step_card {
-        margin-left: 20px;
         margin-right: 20px;
+        margin-top: 25px;
         padding-top: 20px;
         padding-bottom: 20px;
         border-radius: 25px;
+        box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.25);
+        background-color: #E6E6E6;
     }
-    #step_1 {
-        background-color: red;
+    .step_card:hover {
+        background-color: rgba(147, 86, 220, 0.25);
     }
-    #step_2 {
-        background-color: green;
+    #number1::before {
+        content: "1";
+        color: white;
+        position: relative;
+        left: -13px;
+        margin-right: 15%;
+        border-radius: 36px;
+        text-align: center;
+        padding: 6px 10px 6px 10px;
+        background-color: #9356DC;
     }
-    #step_3 {
-        background-color: blue;
+    #number2::before {
+        content: "2";
+        color: white;
+        position: relative;
+        left: -13px;
+        margin-right: 15%;
+        border-radius: 36px;
+        text-align: center;
+        padding: 6px 10px 6px 10px;
+        background-color: #9356DC;
+    }
+    #number3::before {
+        content: "3";
+        color: white;
+        position: relative;
+        left: -13px;
+        margin-right: 15%;
+        border-radius: 36px;
+        text-align: center;
+        padding: 6px 10px 6px 10px;
+        background-color: #9356DC;
+    }
+    .step_ico:before {
+        margin-right: 15%;
     }
 }
 

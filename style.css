@@ -64,8 +64,8 @@ header #logo {
   background-image: linear-gradient(#ff79da, #9356dc);
   border: 0px;
   margin-bottom: 45px;
-  -webkit-box-shadow: 1px 1px 5px 0px black;
-          box-shadow: 1px 1px 5px 0px black;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.459);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.459);
 }
 
 .explore button b {
@@ -85,23 +85,58 @@ header #logo {
 }
 
 .functioning .step_card {
-  margin-left: 20px;
   margin-right: 20px;
+  margin-top: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.25);
+  background-color: #E6E6E6;
 }
 
-.functioning #step_1 {
-  background-color: red;
+.functioning .step_card:hover {
+  background-color: rgba(147, 86, 220, 0.25);
 }
 
-.functioning #step_2 {
-  background-color: green;
+.functioning #number1::before {
+  content: "1";
+  color: white;
+  position: relative;
+  left: -13px;
+  margin-right: 15%;
+  border-radius: 36px;
+  text-align: center;
+  padding: 6px 10px 6px 10px;
+  background-color: #9356DC;
 }
 
-.functioning #step_3 {
-  background-color: blue;
+.functioning #number2::before {
+  content: "2";
+  color: white;
+  position: relative;
+  left: -13px;
+  margin-right: 15%;
+  border-radius: 36px;
+  text-align: center;
+  padding: 6px 10px 6px 10px;
+  background-color: #9356DC;
+}
+
+.functioning #number3::before {
+  content: "3";
+  color: white;
+  position: relative;
+  left: -13px;
+  margin-right: 15%;
+  border-radius: 36px;
+  text-align: center;
+  padding: 6px 10px 6px 10px;
+  background-color: #9356DC;
+}
+
+.functioning .step_ico:before {
+  margin-right: 15%;
 }
 
 .restaurants {
