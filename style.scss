@@ -28,6 +28,15 @@ h3 {
     padding-left: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+    font-size: 16px;
+}
+
 header {
     height: 65px;
     #logo {
@@ -43,9 +52,12 @@ header {
     text-align: center;
     height: 45px;
     background-color: #eaeaea;
-    box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.459);
     i {
         margin-top: 13px;
+    }
+    .fa-map-marker-alt:before {
+        margin-right: 15px;
     }
 }
 
@@ -72,8 +84,9 @@ header {
 }
 
 .functioning {
-    background-color: white
-    ;
+    background-color: white;
+    margin-top: 55px;
+    margin-bottom: 55px;
     li {
         list-style: none;
         b {
@@ -91,39 +104,63 @@ header {
     }
     .step_card:hover {
         background-color: rgba(147, 86, 220, 0.25);
+        .fa-mobile-alt:before {
+            color: $primary;
+        }
+        .fa-list-ul:before {
+            color: $primary;
+        }
+        .fa-store:before {
+            color: $primary;
+        }
     }
     #number1::before {
         content: "1";
         color: white;
         position: relative;
         left: -13px;
-        margin-right: 15%;
+        margin-right: 5%;
         border-radius: 36px;
         text-align: center;
         padding: 6px 10px 6px 10px;
-        background-color: #9356DC;
+        background-color: $primary;
+    }
+    .fa-mobile-alt:before {
+        margin-right: 25px;
+        font-size: 18px;
+        color: grey;
     }
     #number2::before {
         content: "2";
         color: white;
         position: relative;
         left: -13px;
-        margin-right: 15%;
+        margin-right: 5%;
         border-radius: 36px;
         text-align: center;
         padding: 6px 10px 6px 10px;
-        background-color: #9356DC;
+        background-color: $primary;
+    }
+    .fa-list-ul:before {
+        margin-right: 25px;
+        font-size: 18px;
+        color: grey;
     }
     #number3::before {
         content: "3";
         color: white;
         position: relative;
         left: -13px;
-        margin-right: 15%;
+        margin-right: 5%;
         border-radius: 36px;
         text-align: center;
         padding: 6px 10px 6px 10px;
-        background-color: #9356DC;
+        background-color: $primary;
+    }
+    .fa-store:before {
+        margin-right: 25px;
+        font-size: 18px;
+        color: grey;
     }
     .step_ico:before {
         margin-right: 15%;
@@ -228,6 +265,7 @@ footer {
         margin-left: 20px;
         color: white;
         text-decoration: none;
+        font-weight: 400;
         i {
             width: 20px;
             margin-right: 5px;

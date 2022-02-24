@@ -21,6 +21,15 @@ h3 {
   padding-left: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+b {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 header {
   height: 65px;
 }
@@ -37,12 +46,16 @@ header #logo {
   text-align: center;
   height: 45px;
   background-color: #eaeaea;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.459);
+          box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.459);
 }
 
 .loc i {
   margin-top: 13px;
+}
+
+.loc .fa-map-marker-alt:before {
+  margin-right: 15px;
 }
 
 .explore {
@@ -74,6 +87,8 @@ header #logo {
 
 .functioning {
   background-color: white;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 .functioning li {
@@ -99,16 +114,34 @@ header #logo {
   background-color: rgba(147, 86, 220, 0.25);
 }
 
+.functioning .step_card:hover .fa-mobile-alt:before {
+  color: #9356dc;
+}
+
+.functioning .step_card:hover .fa-list-ul:before {
+  color: #9356dc;
+}
+
+.functioning .step_card:hover .fa-store:before {
+  color: #9356dc;
+}
+
 .functioning #number1::before {
   content: "1";
   color: white;
   position: relative;
   left: -13px;
-  margin-right: 15%;
+  margin-right: 5%;
   border-radius: 36px;
   text-align: center;
   padding: 6px 10px 6px 10px;
-  background-color: #9356DC;
+  background-color: #9356dc;
+}
+
+.functioning .fa-mobile-alt:before {
+  margin-right: 25px;
+  font-size: 18px;
+  color: grey;
 }
 
 .functioning #number2::before {
@@ -116,11 +149,17 @@ header #logo {
   color: white;
   position: relative;
   left: -13px;
-  margin-right: 15%;
+  margin-right: 5%;
   border-radius: 36px;
   text-align: center;
   padding: 6px 10px 6px 10px;
-  background-color: #9356DC;
+  background-color: #9356dc;
+}
+
+.functioning .fa-list-ul:before {
+  margin-right: 25px;
+  font-size: 18px;
+  color: grey;
 }
 
 .functioning #number3::before {
@@ -128,11 +167,17 @@ header #logo {
   color: white;
   position: relative;
   left: -13px;
-  margin-right: 15%;
+  margin-right: 5%;
   border-radius: 36px;
   text-align: center;
   padding: 6px 10px 6px 10px;
-  background-color: #9356DC;
+  background-color: #9356dc;
+}
+
+.functioning .fa-store:before {
+  margin-right: 25px;
+  font-size: 18px;
+  color: grey;
 }
 
 .functioning .step_ico:before {
@@ -275,6 +320,7 @@ footer a {
   margin-left: 20px;
   color: white;
   text-decoration: none;
+  font-weight: 400;
 }
 
 footer a i {
