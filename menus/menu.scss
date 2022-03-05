@@ -4,6 +4,16 @@ $secondary : #ff79da;
 
 $terciary : #99e2d0;
 
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
@@ -44,6 +54,7 @@ header {
     height: 300px;
     background-position: center;
     background-size: cover;
+    z-index: 1;
 }
 
 #menu_background_1 {
@@ -62,37 +73,58 @@ header {
 .menu {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    bottom: 60px;
+    border-radius: 36px 36px 0px 0px;
     .menu_header {
         display: flex;
         justify-content: space-between;
-        //margin-left: 5%;
-        margin-right: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 85%;
         h3 {
             font-family: 'Shrikhand';
             font-size: 24px;
         }
         .card_heart {
-            height: 25px;
-            width: 25px;
             margin-top: 20px;
             #heart-fill {
                 display: none;
+                position: absolute;
+                height: 25px;
+                width: 25px;
             }
             #heart-empty {
                 display: block;
+                position: absolute;
+                height: 25px;
+                width: 25px;
             }
             &:hover {
                 #heart-fill {
+                    animation: fadeIn 3s;
                     display: block;
                 }
                 #heart-empty {
-                    display: none;
+                    animation: fadeOut 1s;
+                    animation-fill-mode: forwards;
                 }
             }
         }
     }
     .menu_title {
         margin-left: 5%;
+        font-weight: 200;
+    }
+    .menu_title::after {
+        display: block;
+        content: "";
+        width: 40px;
+        margin-top: 5px;
+        height: 5px;
+        background-color: $terciary
     }
     .menu_list ul {
         list-style: none;
@@ -101,35 +133,52 @@ header {
         padding: 0%;
     }
     .menu_list_card {
-        border: solid 1px black;
+        //border: solid 1px black;
         border-radius: 15px;
         width: 95%;
         margin: 5% auto;
+        padding: 5px;
+        box-shadow: 1px 1px 20px 1px rgba(108,108,108,0.5);
+    }
+    .menu_list_title {
+        margin: 1%;
+        margin-left: 10px;
+        font-size: 16px;
+        h5 {
+            font-weight: 800;
+        }
     }
     .menu_list_description {
         display: flex;
         justify-content: space-between;
         margin-top: 2%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        p {
+            font-weight: 100;
+            margin: 0px;
+        }
     }
-}
-
-.btn {
-    padding: 15px 0px 15px 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 30px;
-    color: white;
-    background-image: linear-gradient($secondary, $primary);
-    border: 0px;
-    box-shadow: 1px 1px 5px 0px black;
-    b {
-        font-size: 14px;
+    .btn {
+        padding: 15px 0px 15px 0px;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 30px;
+        color: white;
+        background-image: linear-gradient($secondary, $primary);
+        border: 0px;
+        box-shadow: 1px 1px 5px 0px black;
+        b {
+            font-size: 14px;
+        }
     }
 }
 
 footer {
     background-color: #353535;
-    margin-top: 45px;
+    margin-top: 20px;
     padding-bottom: 35px;
     padding-top: 20px;
     display: flex;
