@@ -257,6 +257,25 @@ header #logo {
   border-top-right-radius: 15px;
 }
 
+.restaurants_cards .restaurant_card .card_background .new {
+  border: 1px solid lightgreen;
+  margin-right: 20px;
+  margin-left: 250px;
+  padding-left: 20px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: lightgreen;
+  border-radius: 3px;
+}
+
+.restaurants_cards .restaurant_card .card_background .new .new_text {
+  color: green;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
 .restaurants_cards .restaurant_card #card_background_1 {
   background-image: url("img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
