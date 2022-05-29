@@ -35,6 +35,28 @@
   }
 }
 
+@-webkit-keyframes listSlideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes listSlideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -227,6 +249,27 @@ header #logo {
 
 .menu .btn b {
   font-size: 14px;
+}
+
+.menu #menu_entries {
+  -webkit-animation: listSlideIn 3s;
+          animation: listSlideIn 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.menu #menu_meals {
+  -webkit-animation: listSlideIn 5s;
+          animation: listSlideIn 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.menu #menu_desserts {
+  -webkit-animation: listSlideIn 7s;
+          animation: listSlideIn 7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 footer {
