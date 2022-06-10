@@ -198,7 +198,11 @@ header #logo {
 
 .menu .menu_list_card {
   border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 95%;
+  height: 65px;
   margin: 5% auto;
   padding: 5px;
   -webkit-box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);

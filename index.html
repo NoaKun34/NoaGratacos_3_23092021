@@ -9,11 +9,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
     <!--<link rel="stylesheet" href="reset.css">-->
     <script src="https://kit.fontawesome.com/c0b0c0a604.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <div class="container_loader">
+        <div class="pan-loader">
+            <div class="loader"></div>
+            <div class="pan-container">
+                <div class="pan"></div>
+                <div class="handle"></div>
+            </div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+
     <header class="full_width">
         <a href="index.html"><img src="img/logo/ohmyfood.png" alt="" id="logo"></a>
     </header>
@@ -27,20 +40,23 @@
         <div class="full_width explore">
             <h2 class="explore_title">Réservez le menu qui </br>vous convient</h2>
             <p class="explore_text">Découvrez des restaurants d'exception, </br>séléctionnés par nos soins.</p>
-            <button class="explore_button"><b>Explorez nos restaurants</b></button>
+            <a href=""><button class="explore_button"><b>Explorez nos restaurants</b></button></a>
         </div>
 
         <div class="full_width functioning">
             <h2 class="title">Fonctionnement</h2>
             <ul>
                 <li class="step_card" id="step_1">
-                    <h3 id="number1" class="step_num"><i class="fas fa-mobile-alt step-ico"></i><b> Choisissez un restaurant</b></h3>
+                    <h3 id="number1" class="step_num"><i class="fas fa-mobile-alt step-ico"></i><b> Choisissez un
+                            restaurant</b></h3>
                 </li>
                 <li class="step_card" id="step_2">
-                    <h3 id="number2" class="step_num"><i class="fas fa-list-ul step-ico"></i><b> Composez votre menu</b></h3>
+                    <h3 id="number2" class="step_num"><i class="fas fa-list-ul step-ico"></i><b> Composez votre menu</b>
+                    </h3>
                 </li>
                 <li class="step_card" id="step_3">
-                    <h3 id="number3" class="step_num"><i class="fas fa-store step-ico"></i><b> Dégustez au restaurant</b></h3>
+                    <h3 id="number3" class="step_num"><i class="fas fa-store step-ico"></i><b> Dégustez au
+                            restaurant</b></h3>
                 </li>
             </ul>
         </div>
