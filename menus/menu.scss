@@ -57,6 +57,20 @@ h3 {
 
 header {
     height: 65px;
+    display: flex;
+    flex-direction: row;
+    .container_arrow {
+        flex: 10%;
+    }
+    .nav_arrow {
+        font-size: 22px;
+        margin: 60% 50%;
+        color: black;
+    }
+    .container_logo {
+        flex: 90%;
+        margin: 1% 10% 1% 1%;
+    }
     #logo {
         width: 50%;
         display: block;
