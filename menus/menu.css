@@ -353,6 +353,7 @@ header #logo {
 
 .menu .menu_list_description .menu_list_price {
   margin: 0% 3%;
+  font-weight: 600;
 }
 
 .menu .menu_list_description p {
