@@ -72,8 +72,7 @@ header {
 header #logo {
   width: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 15px;
 }
 
@@ -122,8 +121,7 @@ header #logo {
 
 .functioning {
   background-color: white;
-  margin-top: 55px;
-  margin-bottom: 55px;
+  margin: 55px 0px;
 }
 
 .functioning li {
@@ -390,5 +388,28 @@ footer a {
 footer a i {
   width: 20px;
   margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  header #logo {
+    width: 30%;
+  }
+  .functioning {
+    width: 100%;
+  }
+  .functioning_list {
+    margin: 0% 25%;
+  }
+  .restaurants .restaurants_cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .restaurants .card_link {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
