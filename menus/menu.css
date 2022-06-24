@@ -276,7 +276,6 @@ header #logo {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 95%;
-  height: 65px;
   margin: 5% auto;
   -webkit-box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);
           box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);
@@ -303,12 +302,11 @@ header #logo {
 
 .menu .menu_list_card .menu_list_ico {
   display: block;
-  position: relative;
   width: 0%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #99e2d0;
-  padding-top: 6%;
+  padding-top: 5%;
 }
 
 .menu .menu_list_card .menu_list_ico i {
@@ -430,5 +428,21 @@ footer a {
 footer a i {
   width: 20px;
   margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  header #logo {
+    width: 30%;
+  }
+  header .nav_arrow {
+    margin: 24% 50%;
+    font-size: 30px;
+  }
+  .menu_list_ico {
+    padding-top: 4%;
+  }
+  .menu_list_ico i::before {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=menu.css.map */
