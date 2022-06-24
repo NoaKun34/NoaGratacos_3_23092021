@@ -330,27 +330,27 @@ header #logo {
   margin-right: 30px;
 }
 
-.restaurants_cards .restaurant_card .card_text .card_heart #heart-fill {
+.restaurants_cards .restaurant_card .card_text .card_heart .heart-fill {
   display: none;
   position: absolute;
   height: 25px;
   width: 25px;
 }
 
-.restaurants_cards .restaurant_card .card_text .card_heart #heart-empty {
+.restaurants_cards .restaurant_card .card_text .card_heart .heart-empty {
   display: block;
   position: absolute;
   height: 25px;
   width: 25px;
 }
 
-.restaurants_cards .restaurant_card .card_text .card_heart:hover #heart-fill {
+.restaurants_cards .restaurant_card .card_text .card_heart:hover .heart-fill {
   -webkit-animation: fadeIn 3s;
           animation: fadeIn 3s;
   display: block;
 }
 
-.restaurants_cards .restaurant_card .card_text .card_heart:hover #heart-empty {
+.restaurants_cards .restaurant_card .card_text .card_heart:hover .heart-empty {
   -webkit-animation: fadeOut 1s;
           animation: fadeOut 1s;
   -webkit-animation-fill-mode: forwards;

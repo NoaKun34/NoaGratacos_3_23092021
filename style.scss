@@ -253,24 +253,24 @@ header {
             .card_heart {
                 margin-top: 20px;
                 margin-right: 30px;
-                #heart-fill {
+                .heart-fill {
                     display: none;
                     position: absolute;
                     height: 25px;
                     width: 25px;
                 }
-                #heart-empty {
+                .heart-empty {
                     display: block;
                     position: absolute;
                     height: 25px;
                     width: 25px;
                 }
                 &:hover {
-                    #heart-fill {
+                    .heart-fill {
                         animation: fadeIn 3s;
                         display: block;
                     }
-                    #heart-empty {
+                    .heart-empty {
                         animation: fadeOut 1s;
                         animation-fill-mode: forwards;
                     }
