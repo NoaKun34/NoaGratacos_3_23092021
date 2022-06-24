@@ -195,7 +195,6 @@ header {
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
             .new {
-                border: 1px solid lightgreen;
                 margin-right: 20px;
                 margin-left: 250px;
                 padding-left: 20px;
@@ -208,6 +207,7 @@ header {
                     margin-right: 15px;
                     margin-top: 5px;
                     margin-bottom: 0px;
+                    padding-top: 4px;
                     font-weight: 600;
                 }
             }

@@ -256,7 +256,6 @@ header #logo {
 }
 
 .restaurants_cards .restaurant_card .card_background .new {
-  border: 1px solid lightgreen;
   margin-right: 20px;
   margin-left: 250px;
   padding-left: 20px;
@@ -271,6 +270,7 @@ header #logo {
   margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 0px;
+  padding-top: 4px;
   font-weight: 600;
 }
 
