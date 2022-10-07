@@ -16,7 +16,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
@@ -25,7 +24,6 @@
     opacity: 0;
   }
 }
-
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -34,29 +32,24 @@
     opacity: 0;
   }
 }
-
 @-webkit-keyframes listSlideIn {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     opacity: 1;
   }
 }
-
 @keyframes listSlideIn {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes checkExpanse {
   0% {
     width: 0%;
@@ -65,7 +58,6 @@
     width: 19%;
   }
 }
-
 @keyframes checkExpanse {
   0% {
     width: 0%;
@@ -74,36 +66,29 @@
     width: 19%;
   }
 }
-
 @-webkit-keyframes checkRollIn {
   0% {
     opacity: 0;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     opacity: 1;
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 @keyframes checkRollIn {
   0% {
     opacity: 0;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     opacity: 1;
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 body {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .full_width {
@@ -125,34 +110,21 @@ h3 {
 
 header {
   height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 header .container_arrow {
-  -webkit-box-flex: 10%;
-      -ms-flex: 10%;
-          flex: 10%;
+  flex: 10%;
 }
-
 header .nav_arrow {
   font-size: 22px;
   margin: 60% 50%;
   color: black;
 }
-
 header .container_logo {
-  -webkit-box-flex: 90%;
-      -ms-flex: 90%;
-          flex: 90%;
+  flex: 90%;
   margin: 1% 10% 1% 1%;
 }
-
 header #logo {
   width: 50%;
   display: block;
@@ -185,73 +157,55 @@ header #logo {
 }
 
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-color: white;
   z-index: 2;
   position: relative;
   bottom: 60px;
   border-radius: 36px 36px 0px 0px;
 }
-
 .menu .menu_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 5%;
   margin-left: 5%;
   width: 85%;
 }
-
 .menu .menu_header h3 {
-  font-family: 'Shrikhand';
+  font-family: "Shrikhand";
   font-size: 24px;
 }
-
 .menu .menu_header .card_heart {
   margin-top: 20px;
 }
-
 .menu .menu_header .card_heart #heart-fill {
   display: none;
   position: absolute;
   height: 25px;
   width: 25px;
 }
-
 .menu .menu_header .card_heart #heart-empty {
   display: block;
   position: absolute;
   height: 25px;
   width: 25px;
 }
-
 .menu .menu_header .card_heart:hover #heart-fill {
   -webkit-animation: fadeIn 3s;
           animation: fadeIn 3s;
   display: block;
 }
-
 .menu .menu_header .card_heart:hover #heart-empty {
   -webkit-animation: fadeOut 1s;
           animation: fadeOut 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 .menu .menu_title {
   margin-left: 5%;
   font-weight: 200;
 }
-
 .menu .menu_title::after {
   display: block;
   content: "";
@@ -260,46 +214,34 @@ header #logo {
   height: 5px;
   background-color: #99e2d0;
 }
-
 .menu .menu_list ul {
   list-style: none;
   padding: 0% 3%;
 }
-
 .menu .menu_list_card {
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 95%;
   margin: 5% auto;
-  -webkit-box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);
-          box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);
+  box-shadow: 1px 1px 20px 1px rgba(108, 108, 108, 0.5);
 }
-
 .menu .menu_list_card .menu_list_concat {
   width: 100%;
   margin-top: 2%;
 }
-
 .menu .menu_list_card .menu_list_concat h5 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-size: 17px;
 }
-
 .menu .menu_list_card .menu_list_concat p:first-child {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-size: 14px;
 }
-
 .menu .menu_list_card .menu_list_ico {
   display: block;
   width: 0%;
@@ -308,57 +250,44 @@ header #logo {
   background-color: #99e2d0;
   padding-top: 5%;
 }
-
 .menu .menu_list_card .menu_list_ico i {
   color: white;
   font-size: 22px;
   margin-left: 28%;
   opacity: 0;
 }
-
 .menu .menu_list_card:hover .menu_list_ico {
   -webkit-animation: checkExpanse 1s;
           animation: checkExpanse 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 .menu .menu_list_card:hover .menu_list_ico i {
   -webkit-animation: checkRollIn 1s;
           animation: checkRollIn 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 .menu .menu_list_title {
   margin: 0% 3% 2%;
   font-size: 16px;
 }
-
 .menu .menu_list_title h5 {
   font-weight: 800;
 }
-
 .menu .menu_list_description {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0% 1% 1% 3%;
 }
-
 .menu .menu_list_description .menu_list_price {
   margin: 0% 3%;
   font-weight: 600;
 }
-
 .menu .menu_list_description p {
   font-weight: 100;
   margin: 0px;
 }
-
 .menu .btn {
   padding: 15px 0px 15px 0px;
   margin-top: 20px;
@@ -366,31 +295,25 @@ header #logo {
   margin-right: 100px;
   border-radius: 30px;
   color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background-image: linear-gradient(#ff79da, #9356dc);
   border: 0px;
-  -webkit-box-shadow: 1px 1px 5px 0px black;
-          box-shadow: 1px 1px 5px 0px black;
+  box-shadow: 1px 1px 5px 0px black;
 }
-
 .menu .btn b {
   font-size: 14px;
 }
-
 .menu #menu_entries {
   -webkit-animation: listSlideIn 3s;
           animation: listSlideIn 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 .menu #menu_meals {
   -webkit-animation: listSlideIn 5s;
           animation: listSlideIn 5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 .menu #menu_desserts {
   -webkit-animation: listSlideIn 7s;
           animation: listSlideIn 7s;
@@ -403,28 +326,20 @@ footer {
   margin-top: 20px;
   padding-bottom: 35px;
   padding-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 footer img {
   width: 25%;
   margin-bottom: 10px;
   margin-left: 20px;
 }
-
 footer a {
   margin-top: 10px;
   margin-left: 20px;
   color: white;
   text-decoration: none;
 }
-
 footer a i {
   width: 20px;
   margin-right: 5px;
@@ -438,11 +353,11 @@ footer a i {
     margin: 24% 50%;
     font-size: 30px;
   }
+
   .menu_list_ico {
     padding-top: 4%;
   }
   .menu_list_ico i::before {
     font-size: 30px;
   }
-}
-/*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */
