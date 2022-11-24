@@ -286,18 +286,72 @@ footer {
 
 @media screen and (min-width: 768px) {
     header {
+        .container_logo {
+            margin: 0% 10% 1% 1%;
+        }
+        .container_arrow {
+            margin: inherit;
+            .nav_arrow {
+                margin: 17% 50%;
+            }
+        }
+        height: 80px;
         #logo {
-            width: 30%;
+            width: 15%;
         }
         .nav_arrow {
             margin: 24% 50%;
             font-size: 30px;
         }
     }
-    .menu_list_ico {
-        padding-top: 4%;
-        i::before {
-            font-size: 30px;
+    .menu_list {
+        display: flex;
+        flex-direction: row;
+        .menu_title {
+            font-size: 28px;
+            flex: 10%;
+            margin-top: 13%;
+            &::after {
+                width: 70px;
+            }
+        }
+        ul {
+            flex: 90%;
+            width: 50%;
+            .menu_list_card {
+                width: 50%;
+                .menu_list_ico {
+                    padding-top: 3%;
+                    i {
+                        margin-left: 30%;
+                    }
+                    i::before {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .menu {
+        .btn {
+            margin-left: 40%;
+            margin-right: 40%;
+            &:active {
+                opacity: 0.75;
+                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+            }
+            &:hover {
+                opacity: 0.75;
+                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+            }
+        }
+    }
+    footer {
+        img {
+            margin-left: 38%;
+        }
+        a {
+            margin-left: 45%;
         }
     }
 }

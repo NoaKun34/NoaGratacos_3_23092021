@@ -86,6 +86,14 @@ header {
         border: 0px;
         margin-bottom: 45px;
         box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.459);
+        &:active {
+            opacity: 0.75;
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+        }
+        &:hover {
+            opacity: 0.75;
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+        }
         b {
             font-size: 14px;
         }
@@ -307,24 +315,46 @@ footer {
 
 @media screen and (min-width: 768px) {
     header {
+        height: 80px;
         #logo {
-            width: 30%;
+            width: 15%;
         }
     }
     .functioning {
         //margin: 0% 10%;
         width: 100%;
+        .title {
+            margin-left: 45%;
+        }
     }
     .functioning_list {
-        margin: 0% 25%;
+        margin: 0% 40%;
     }
     .restaurants {
+        .title {
+            margin-left: 45%;
+        }
         .restaurants_cards {
             flex-direction: row;
             flex-wrap: wrap;
+            max-width: 50%;
+            margin-left: 25%;
+            .restaurant_card {
+                .new {
+                    margin-left: 340px;
+                }
+            }
         }
         .card_link {
             width: 50%;
+        }
+    }
+    footer {
+        img {
+            margin-left: 38%;
+        }
+        a {
+            margin-left: 45%;
         }
     }
 }
