@@ -365,7 +365,6 @@ footer a i {
     margin: 24% 50%;
     font-size: 30px;
   }
-<<<<<<< HEAD
   .menu_list {
     display: flex;
     flex-direction: row;
@@ -387,11 +386,6 @@ footer a i {
   }
   .menu_list ul .menu_list_card .menu_list_ico {
     padding-top: 3%;
-=======
-
-  .menu_list_ico {
-    padding-top: 4%;
->>>>>>> master
   }
   .menu_list ul .menu_list_card .menu_list_ico i {
     margin-left: 30%;
@@ -399,7 +393,6 @@ footer a i {
   .menu_list ul .menu_list_card .menu_list_ico i::before {
     font-size: 30px;
   }
-<<<<<<< HEAD
   .menu .btn {
     margin-left: 40%;
     margin-right: 40%;
@@ -418,6 +411,4 @@ footer a i {
   footer a {
     margin-left: 45%;
   }
-=======
->>>>>>> master
 }/*# sourceMappingURL=menu.css.map */
