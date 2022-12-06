@@ -242,6 +242,14 @@ header {
         background-image: linear-gradient($secondary, $primary);
         border: 0px;
         box-shadow: 1px 1px 5px 0px black;
+        &:active {
+            opacity: 0.75;
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+        }
+        &:hover {
+            opacity: 0.75;
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
+        }
         b {
             font-size: 14px;
         }
