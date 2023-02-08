@@ -414,9 +414,11 @@ footer a i {
     box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
   }
   footer img {
-    margin-left: 38%;
+    margin-left: auto;
+    margin-right: auto;
   }
   footer a {
-    margin-left: 45%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=menu.css.map */
