@@ -202,7 +202,11 @@ header {
             height: 185px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
+            position: relative;
             .new {
+                position: absolute;
+                width: 80px;
+                right: 10px;
                 margin-right: 20px;
                 margin-left: 250px;
                 padding-left: 20px;
@@ -323,22 +327,37 @@ footer {
     .functioning {
         //margin: 0% 10%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
         .title {
-            margin-left: 45%;
+            //margin-left: 45%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     .functioning_list {
-        margin: 0% 40%;
+        //margin: 0% 40%;
+        width: 100%;
+        padding: 0px;
+        .step_card {
+            max-width: 310px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     .restaurants {
+        display: flex;
+        flex-direction: column;
         .title {
-            margin-left: 45%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .restaurants_cards {
             flex-direction: row;
             flex-wrap: wrap;
-            max-width: 50%;
-            margin-left: 25%;
+            max-width: 70%;
+            margin-left: auto;
+            margin-right: auto;
             .restaurant_card {
                 .new {
                     margin-left: 340px;
